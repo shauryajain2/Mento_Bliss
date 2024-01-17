@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "122171448816",
+    "firebase_url": "https://fir-2-7abcb-default-rtdb.firebaseio.com",
+    "project_id": "fir-2-7abcb",
+    "storage_bucket": "fir-2-7abcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122171448816:android:f4d39fabe2fd842548d135",
+        "android_client_info": {
+          "package_name": "com.example.geekyhub.firebase2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122171448816-0dt0brcdvi1ivru2riiufsgrqcol7pca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASbOcNRuL6zpuR3Mc4pCg7L5jeQ2zTq0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122171448816-0dt0brcdvi1ivru2riiufsgrqcol7pca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122171448816:android:a2a8e357d00258b048d135",
+        "android_client_info": {
+          "package_name": "com.example.geekyhub.firebase3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122171448816-0dt0brcdvi1ivru2riiufsgrqcol7pca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASbOcNRuL6zpuR3Mc4pCg7L5jeQ2zTq0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122171448816-0dt0brcdvi1ivru2riiufsgrqcol7pca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122171448816:android:4a9df34a12d14eb448d135",
+        "android_client_info": {
+          "package_name": "com.example.geekyhub.mento_bliss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122171448816-0dt0brcdvi1ivru2riiufsgrqcol7pca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASbOcNRuL6zpuR3Mc4pCg7L5jeQ2zTq0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122171448816-0dt0brcdvi1ivru2riiufsgrqcol7pca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

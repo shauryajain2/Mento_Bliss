@@ -105,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="23dp"
-
+                android:id="@+id/account"
                 android:text="Already Have An Account ?" />
 
             <TextView

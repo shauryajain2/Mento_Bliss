@@ -34,16 +34,48 @@
         android:layout_marginTop="10dp"
         android:textSize="18dp"
         android:textColor="@color/black"
-        android:text="Your Score: 0" />
+        android:text="Stress Score: 16 (Mild)" />
 
-    <!-- TextView to display percentage -->
     <TextView
-        android:id="@+id/percentageTextView"
+        android:id="@+id/userScoreTextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:textSize="18dp"
         android:textColor="@color/black"
-        android:text="Percentage: 0%" />
+        android:text="Depression Score: 8 (Normal)" />
+
+    <TextView
+        android:id="@+id/userScoreTextVie2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="Anxiety Score: 11 (Moderate)" />
+
+    <Button
+        android:id="@+id/vedio_modules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="click here to acess vedio modules"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+
+        android:id="@+id/visit_specialist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="click here to visit specialists"/>
+
+
+
+
+
+
 </LinearLayout>

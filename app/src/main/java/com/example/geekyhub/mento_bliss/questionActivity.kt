@@ -20,6 +20,7 @@ class questionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_question)
+        supportActionBar?.hide()
 
         recyclerView = findViewById(R.id.questionlist)
 
@@ -32,7 +33,7 @@ class questionActivity : AppCompatActivity() {
         // ... (your existing questions)
         questionsList.add(
             Question(
-                "I found myself getting upset by quite trivial things ",
+                "I found it hard to wind down ",
                 "Never",
                 "Sometimes",
                 "Fairly Often",
@@ -50,7 +51,59 @@ class questionActivity : AppCompatActivity() {
 
         questionsList.add(
             Question(
-                "I just couldn't seem to get going ",
+                "I was aware of dryness of my mouth ",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I couldn’t seem to experience any positive feeling at all ",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I experienced breathing difficulty (e.g. excessively rapid breathing,\n" +
+                        "breathlessness in the absence of physical exertion) ",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I found it difficult to work up the initiative to do things ",
                 "Never",
                 "Sometimes",
                 "Fairly Often",
@@ -84,7 +137,7 @@ class questionActivity : AppCompatActivity() {
         )
         questionsList.add(
             Question(
-                "I found difficult to relax ",
+                "I felt that I was using a lot of nervous energy  ",
                 "Never",
                 "Sometimes",
                 "Fairly Often",
@@ -101,7 +154,7 @@ class questionActivity : AppCompatActivity() {
         )
         questionsList.add(
             Question(
-                "I felt that I was using a lot of nervous energy ",
+                "I felt that I had nothing to look forward to",
                 "Never",
                 "Sometimes",
                 "Fairly Often",
@@ -118,7 +171,7 @@ class questionActivity : AppCompatActivity() {
         )
         questionsList.add(
             Question(
-                "I felt sad and depressed ",
+                "I found myself getting agitated",
                 "Never",
                 "Sometimes",
                 "Fairly Often",
@@ -135,7 +188,7 @@ class questionActivity : AppCompatActivity() {
         )
         questionsList.add(
             Question(
-                "I felt that I had nothing to look forward to  ",
+                "I found it difficult to relax",
                 "Never",
                 "Sometimes",
                 "Fairly Often",
@@ -152,7 +205,145 @@ class questionActivity : AppCompatActivity() {
         )
         questionsList.add(
             Question(
-                "I felt that life wasn't worthwhile",
+                "I felt down-hearted and blue",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I was intolerant of anything that kept me from getting on with what I\n" +
+                        "was doing",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I felt I was close to panic",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I was unable to become enthusiastic about anything",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I felt I wasn’t worth much as a person",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I felt that I was rather touchy",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I was aware of the action of my heart in the absence of physical\n" +
+                        "exertion (e.g. sense of heart rate increase, heart missing a beat)",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I felt that life was meaningless",
+                "Never",
+                "Sometimes",
+                "Fairly Often",
+                " Very Often",
+                "Never",
+                "Never",
+                "Sometimes",
+                "Sometimes",
+                "Fairly Often",
+                "Fairly Often",
+                "Very Often",
+                "Very Often"
+            )
+        )
+        questionsList.add(
+            Question(
+                "I felt scared without any good reason",
                 "Never",
                 "Sometimes",
                 "Fairly Often",

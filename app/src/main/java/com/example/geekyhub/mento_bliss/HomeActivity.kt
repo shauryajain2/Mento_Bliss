@@ -12,10 +12,12 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        supportActionBar?.hide()
         binding.conductTestBtn.setOnClickListener(){
-        val intent=Intent(this, questionActivity::class.java)
+            val intent=Intent(this, questionActivity::class.java)
             startActivity(intent)
         }
+
 
     }
 }

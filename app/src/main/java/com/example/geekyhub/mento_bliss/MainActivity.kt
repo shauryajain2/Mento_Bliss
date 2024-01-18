@@ -10,13 +10,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar?.hide()
         Handler().postDelayed({
             if (FirebaseAuth.getInstance().currentUser==null) {
                 val intent = Intent(this, Sign_Up::class.java)
                 startActivity(intent)
             }
             else{
-                val intent= Intent(this,HomeActivity::class.java)
+                val intent= Intent(this,MainScreen::class.java)
                 startActivity(intent)
             }
             finish()

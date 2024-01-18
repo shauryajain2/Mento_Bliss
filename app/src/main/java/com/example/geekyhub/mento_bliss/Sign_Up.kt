@@ -18,7 +18,13 @@ class Sign_Up : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        supportActionBar?.hide()
         var user= User()
+
+        binding.account.setOnClickListener(){
+            val intent = Intent(this, login::class.java)
+            startActivity(intent)
+        }
      binding.signUpBtn.setOnClickListener(){
          val name = binding.name.text.toString()
          val email = binding.email.text.toString()
@@ -41,7 +47,7 @@ class Sign_Up : AppCompatActivity() {
                              // Store the user data in Firestore
                              FirebaseFirestore.getInstance().collection(USER_NODE).document(uid).set(user).addOnSuccessListener {
                                  Toast.makeText(this, "Signup Successful", Toast.LENGTH_SHORT).show()
-                                 val intent = Intent(this, HomeActivity::class.java)
+                                 val intent = Intent(this, MainScreen::class.java)
                                  startActivity(intent)
                              }.addOnFailureListener { e ->
                                  Toast.makeText(this, e.localizedMessage, Toast.LENGTH_SHORT).show()

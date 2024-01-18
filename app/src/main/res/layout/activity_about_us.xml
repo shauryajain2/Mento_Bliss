@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#B7DDCD"
+    tools:context=".About_us">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="50dp"
+        android:textColor="#0654EF"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MentoBliss - "
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="At MentoBliss, we believe in fostering mental well-being and providing a helping hand on your journey towards a healthier mind. Our app is designed to empower users to assess and manage their stress, anxiety, and depression levels through the well-established DASS-21 test. We understand the importance of mental health, and our mission is to make mental well-being accessible to everyone.
+
+Our mission is to break down the barriers surrounding mental health by offering a user-friendly platform that promotes self-awareness, education, and support. We aim to create a community where individuals can learn about their mental health, access valuable resources, and connect with professionals who can guide them on their path to wellness."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="@color/purple_500"/>
+
+
+</LinearLayout>
